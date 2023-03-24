@@ -58,14 +58,20 @@ body {
 }
 
 .land {
-  height: 80vh;
+  height: 100vh;
   background-image: url(../images/desktop/image-header.jpg);
   background-size: cover;
   color: #fff;
 }
+@media (min-width: 1400px) {
+  .land {
+    height: 80vh;
+  }
+}
 @media (max-width: 575px) {
   .land {
     background-image: url(../images/mobile/image-header.jpg);
+    height: 80vh;
   }
 }
 .land header {

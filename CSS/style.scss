@@ -60,10 +60,14 @@ body{
 }
 // Start landing
 .land{
-    height: 80vh;
+    height: 100vh;
+    @media (min-width:1400px) {
+        height:80vh;
+    }
     background-image: url(../images/desktop/image-header.jpg);
     @media (max-width:575px){
         background-image: url(../images/mobile/image-header.jpg);
+        height: 80vh;
     }
     background-size: cover;
     color: #fff;
