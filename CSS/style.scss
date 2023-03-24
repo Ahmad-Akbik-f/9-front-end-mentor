@@ -60,11 +60,10 @@ body{
 }
 // Start landing
 .land{
-    height: 100vh;
+    height: 80vh;
     background-image: url(../images/desktop/image-header.jpg);
     @media (max-width:575px){
         background-image: url(../images/mobile/image-header.jpg);
-        height: 80vh;
     }
     background-size: cover;
     color: #fff;
@@ -390,7 +389,7 @@ body{
 // End Gallery
 // Start footer
 footer{
-    padding: 50px 0;
+    padding: 70px 0;
     position: relative;
     background-color: hsl(167deg 44% 70%);
     text-align: center;

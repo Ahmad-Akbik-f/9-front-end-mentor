@@ -58,7 +58,7 @@ body {
 }
 
 .land {
-  height: 100vh;
+  height: 80vh;
   background-image: url(../images/desktop/image-header.jpg);
   background-size: cover;
   color: #fff;
@@ -66,7 +66,6 @@ body {
 @media (max-width: 575px) {
   .land {
     background-image: url(../images/mobile/image-header.jpg);
-    height: 80vh;
   }
 }
 .land header {
@@ -390,7 +389,7 @@ article img {
 }
 
 footer {
-  padding: 50px 0;
+  padding: 70px 0;
   position: relative;
   background-color: hsl(167, 44%, 70%);
   text-align: center;
